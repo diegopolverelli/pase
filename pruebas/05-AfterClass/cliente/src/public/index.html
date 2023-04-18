@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cliente</h1>
+
+    <button onclick="prueba()">Prueba</button>
+    <button onclick="prueba2()">Prueba 2</button>
+
+    <script>
+        const prueba=()=>{
+            fetch('http://localhost:3000/login',{
+                method:'GET'
+            })
+                .then(resultado=>resultado.text())
+                .then(texto=>console.log(texto))
+        }
+
+        const prueba2=()=>{
+            fetch('http://localhost:3000/api/usuarios/login',{
+                method:'POST'
+            })
+                .then(resultado=>resultado.text())
+                .then(texto=>console.log(texto))
+        }
+
+</script>
+</body>
+
+</html>

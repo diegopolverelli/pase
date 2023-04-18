@@ -1,0 +1,34 @@
+<style>
+    a{
+        padding: 10px;
+        border: 1px solid #222;
+        color: #333;
+        background-color: #ccc;
+        border-radius: 5px;
+    }
+</style>
+
+<h1>Home Page</h1>
+<h3>Usuarios:</h3>
+
+<br>
+<ul>
+    {{#each usuarios}}
+        <li>
+            {{this.nombre}} {{this.apellido}} {{this.rol.nombre}}
+        </li>
+    {{/each}}
+</ul>
+
+<br>
+<a href="/?pagina=1">Página 1</a>
+
+{{#if hasPrevPage}}
+    <a href="/?pagina={{prevPage}}">Anterior</a>
+{{/if}}
+
+{{#if hasNextPage}}
+    <a href="/?pagina={{nextPage}}">Siguiente</a>
+{{/if}}
+
+<a href="/?pagina={{totalPages}}">Última página</a>
