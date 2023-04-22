@@ -1,0 +1,26 @@
+{
+  "name": "daofactorydto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "01": "nodemon ./01-srcDao/app.js",
+    "02": "nodemon ./02-srcFactory/app.js",
+    "03": "nodemon ./03-srcDaoMultiple/app.js",
+    "04": "nodemon ./04-srcDaoUnificado/app.js",
+    "05": "nodemon ./05-srcDaoUnificadoPlus/app.js",
+    "06": "nodemon ./06-srcDto/app.js",
+    "07": "nodemon ./07-srcRepository/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.4"
+  }
+}
