@@ -1,0 +1,96 @@
+Error: Error de prueba...!!!
+    at CustomError.createError (file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/CustomError.js:3:21)
+    at file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/app.js:16:25
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:421:3)
+
+Error: Error de prueba...!!!
+    at CustomError.createError (file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/CustomError.js:3:21)
+    at file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/app.js:16:25
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:421:3)
+
+Error: Error de prueba...!!!
+    at CustomError.createError (file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/CustomError.js:3:21)
+    at file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/app.js:16:25
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:421:3)
+
+Error: Error de prueba...!!!
+    at CustomError.createError (file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/CustomError.js:3:21)
+    at file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/app.js:16:25
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:421:3)
+
+Error: Error de prueba...!!!
+    at CustomError.createError (file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/CustomError.js:3:21)
+    at file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/app.js:16:25
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:421:3)
+
+Error: Error de prueba...!!!
+    at CustomError.createError (file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/CustomError.js:3:21)
+    at file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/app.js:16:25
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:421:3)
+
+Error: Error de prueba...!!!
+    at CustomError.createError (file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/CustomError.js:3:21)
+    at file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/app.js:16:25
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:421:3)
+
+Error: Error de prueba...!!!
+    at CustomError.createError (file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/CustomError.js:3:21)
+    at file:///C:/Users/diego/dev/CoderHouse/DesafiosBackend-main/moduloIII/clase%2017%20Optimizacion%20Versionado%20de%20paquetes/pruebas/errors/app.js:16:25
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\diego\dev\CoderHouse\DesafiosBackend-main\moduloIII\clase 17 Optimizacion Versionado de paquetes\pruebas\errors\node_modules\express\lib\router\index.js:421:3)
+
