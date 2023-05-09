@@ -1,0 +1,85 @@
+{"level":"http","message":"Sun, 07 May 2023 13:07:10 GMT - GET en /"}
+{"level":"error","message":"Sun, 07 May 2023 13:07:10 GMT - Error...!!! - GET de /"}
+{"level":"silly","message":"Sun, 07 May 2023 13:07:10 GMT - Aviso error bajo nivel en GET de /"}
+{"level":"http","message":"Sun, 07 May 2023 13:07:50 GMT - GET en /"}
+{"level":"error","message":"Sun, 07 May 2023 13:07:50 GMT - Error...!!! - GET de /"}
+{"level":"silly","message":"Sun, 07 May 2023 13:07:50 GMT - Aviso error bajo nivel en GET de /"}
+[31merror[39m: Sun, 07 May 2023 13:13:39 GMT - Error...!!! - GET de /
+[34minfo[39m: Sun, 07 May 2023 13:18:05 GMT - GET en /
+[31mcritico[39m: Sun, 07 May 2023 13:18:05 GMT - Error...!!! - GET de /
+[33maviso[39m: Sun, 07 May 2023 13:18:05 GMT - Aviso error bajo nivel en GET de /
+[32minfo[39m: Sun, 07 May 2023 13:18:29 GMT - GET en /
+[31mcritico[39m: Sun, 07 May 2023 13:18:29 GMT - Error...!!! - GET de /
+[33maviso[39m: Sun, 07 May 2023 13:18:29 GMT - Aviso error bajo nivel en GET de /
+info: Sun, 07 May 2023 13:19:17 GMT - GET en /
+critico: Sun, 07 May 2023 13:19:17 GMT - Error...!!! - GET de /
+aviso: Sun, 07 May 2023 13:19:17 GMT - Aviso error bajo nivel en GET de /
+info: Sun, 07 May 2023 13:22:39 GMT - GET en /
+critico: Sun, 07 May 2023 13:22:39 GMT - Error...!!! - GET de /
+aviso: Sun, 07 May 2023 13:22:39 GMT - Aviso error bajo nivel en GET de /
+{"level":"info","message":"Sun, 07 May 2023 13:23:34 GMT - GET en /"}
+{"level":"critico","message":"Sun, 07 May 2023 13:23:34 GMT - Error...!!! - GET de /"}
+{"level":"aviso","message":"Sun, 07 May 2023 13:23:34 GMT - Aviso error bajo nivel en GET de /"}
+{ message: 'Sun, 07 May 2023 13:24:13 GMT - GET en /', level: 'info' }
+{
+  message: 'Sun, 07 May 2023 13:24:13 GMT - Error...!!! - GET de /',
+  level: 'critico'
+}
+{
+  message: 'Sun, 07 May 2023 13:24:13 GMT - Aviso error bajo nivel en GET de /',
+  level: 'aviso'
+}
+{
+  message: 'Sun, 07 May 2023 13:30:09 GMT - GET en /',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-05-07T13:30:09.770Z'
+}
+{
+  message: 'Sun, 07 May 2023 13:30:09 GMT - Error...!!! - GET de /',
+  level: 'critico',
+  label: 'right meow!',
+  timestamp: '2023-05-07T13:30:09.783Z'
+}
+{
+  message: 'Sun, 07 May 2023 13:30:09 GMT - Aviso error bajo nivel en GET de /',
+  level: 'aviso',
+  label: 'right meow!',
+  timestamp: '2023-05-07T13:30:09.784Z'
+}
+2023-05-07T13:31:16.233Z [right meow!] info: Sun, 07 May 2023 13:31:16 GMT - GET en /
+2023-05-07T13:31:16.239Z [right meow!] critico: Sun, 07 May 2023 13:31:16 GMT - Error...!!! - GET de /
+2023-05-07T13:31:16.239Z [right meow!] aviso: Sun, 07 May 2023 13:31:16 GMT - Aviso error bajo nivel en GET de /
+{"level":"info","message":"Sun, 07 May 2023 13:32:54 GMT - GET en /"}
+{"level":"critico","message":"Sun, 07 May 2023 13:32:54 GMT - Error...!!! - GET de /"}
+{"level":"aviso","message":"Sun, 07 May 2023 13:32:54 GMT - Aviso error bajo nivel en GET de /"}
+{"level":"info","message":"Sun, 07 May 2023 13:33:35 GMT - GET en /"}
+{"level":"critico","message":"Sun, 07 May 2023 13:33:35 GMT - Error...!!! - GET de /"}
+{"level":"aviso","message":"Sun, 07 May 2023 13:33:35 GMT - Aviso error bajo nivel en GET de /"}
+{"level":"info","message":"Sun, 07 May 2023 13:33:50 GMT - GET en /"}
+{"level":"critico","message":"Sun, 07 May 2023 13:33:50 GMT - Error...!!! - GET de /"}
+{"level":"aviso","message":"Sun, 07 May 2023 13:33:50 GMT - Aviso error bajo nivel en GET de /"}
+{"level":"info","message":"Sun, 07 May 2023 13:34:11 GMT - GET en /"}
+{"level":"critico","message":"Sun, 07 May 2023 13:34:11 GMT - Error...!!! - GET de /"}
+{"level":"aviso","message":"Sun, 07 May 2023 13:34:11 GMT - Aviso error bajo nivel en GET de /"}
+{"level":"info","message":"Info: GET en /"}
+{"level":"critico","message":"Error...!!! - GET de /"}
+{"level":"aviso","message":"Aviso error bajo nivel en GET de /"}
+{ message: 'Info: GET en /', level: 'info' }
+{ message: 'Error...!!! - GET de /', level: 'critico' }
+{ message: 'Aviso error bajo nivel en GET de /', level: 'aviso' }
+{
+  message: 'Info: GET en /',
+  level: 'info',
+  timestamp: '2023-05-07T13:36:44.591Z'
+}
+{
+  message: 'Error...!!! - GET de /',
+  level: 'critico',
+  timestamp: '2023-05-07T13:36:44.600Z'
+}
+{
+  message: 'Aviso error bajo nivel en GET de /',
+  level: 'aviso',
+  timestamp: '2023-05-07T13:36:44.602Z'
+}
