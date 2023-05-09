@@ -1,0 +1,7 @@
+{"level":"critico","message":"prueba de error critico"}
+{"level":"aviso","message":"prueba de aviso"}
+{"level":"info","message":"prueba de info"}
+{"level":"info","message":"Info: GET en /"}
+{"level":"critico","message":"Error...!!! - GET de /"}
+{"level":"aviso","message":"Aviso error bajo nivel en GET de /"}
+{"level":"critico","message":"Prueba II de crítico...!!!"}

@@ -1,0 +1,40 @@
+[
+   {
+      "id": "735360f1-32d7-4c34-9a8c-fd8248e6d3ba",
+      "products": [
+         {
+            "productId": "250",
+            "quantity": 1
+         }
+      ]
+   },
+   {
+      "id": "8627b5b1-6c37-4f53-a649-aa200c4d315f",
+      "products": []
+   },
+   {
+      "id": "0f11b726-537d-492d-b423-507fb0c0c705",
+      "products": [
+         {
+            "productId": "p0001",
+            "quantity": 4
+         }
+      ]
+   },
+   {
+      "id": "0c5e3b70-2816-4246-ae20-a7f3e5bb9b82",
+      "products": []
+   },
+   {
+      "id": "84316500-52d8-4c36-a125-584c6270acd6",
+      "products": []
+   },
+   {
+      "id": "c4542a41-e3c6-4c33-8ccd-2fb2da43e5b2",
+      "products": []
+   },
+   {
+      "id": "9eb25288-1c2d-40e2-a77d-5cec40e9bff5",
+      "products": []
+   }
+]

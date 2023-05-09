@@ -17,7 +17,5 @@
     "mongoose": "^7.1.0"
   },
   "type": "module",
-  "devDependencies": {
-    "artillery": "^2.0.0-31"
-  }
+  "devDependencies": {}
 }

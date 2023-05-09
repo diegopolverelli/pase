@@ -43,7 +43,7 @@ const logger=winston.createLogger(
             new winston.transports.File(
                 {
                     filename:"./src/log.log", 
-                    level: "info",
+                    level: "critico",
                     format: winston.format.combine(
                         winston.format.timestamp(),
                         // winston.format.colorize({colors: customLevelOptions.colors}),
@@ -51,7 +51,7 @@ const logger=winston.createLogger(
                     )
 
                 }),
-            // new winston.transports.File({filename:"./src/log.log", level:"silly"}),
+            new winston.transports.File({filename:"./src/log2.log", level:"info"}),
         ]
     }
 )
@@ -66,6 +66,13 @@ const logger=winston.createLogger(
 //         ]
 //     }
 // )
+
+console.log('pasó por acá...')
+
+logger.log('critico','prueba de error critico')
+logger.log('aviso','prueba de aviso')
+logger.log('info','prueba de info')
+logger.log('http','prueba de http')
 
 export const addLogger=(req, res, next)=>{
     req.logger = logger;

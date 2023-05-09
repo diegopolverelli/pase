@@ -41,6 +41,9 @@ if (cluster.isPrimary){
         let email=faker.internet.email()
         let password=faker.internet.password()
     
+        let promedio=(1+3+4+5+4+4+4+4+4+1000)/10
+        console.log(promedio)
+
         let usuario={
             nombre, apellido, email, password
         }
