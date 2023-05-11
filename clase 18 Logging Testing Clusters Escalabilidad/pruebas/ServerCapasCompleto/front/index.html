@@ -1,0 +1,50 @@
+<h1>Ordenes de Pedido</h1>
+
+<div id="pedidos">
+
+</div>
+
+<br>
+<button id="btnOrdenes">Ordenes</button>
+
+
+<script>
+    let divOrdenes=document.getElementById('pedidos')
+    let btnOrdenes=document.getElementById('btnOrdenes')
+
+    btnOrdenes.addEventListener('click',async(e)=>{
+        e.preventDefault()
+
+        let respuesta=await fetch('http://localhost:3000/api/ordenes')
+        ordenes=await respuesta.json()
+
+        console.log(ordenes)
+        ordenes.dato.forEach(o=>{
+            let orden=document.createElement('div')
+            let usuario=document.createElement('p')
+            let negocio=document.createElement('p')
+            let numero=document.createElement('p')
+
+            usuario.innerHTML='NOMBRE: '+o.usuario.nombre
+            negocio.innerHTML='NEGOCIO: '+o.negocio.nombre+' - Domicilio: '+o.negocio.domicilio
+            numero.innerHTML='NRO de PEDIDO: '+o._id
+
+            let items=document.createElement('ul')
+            o.productos.forEach(p=>{
+                let item=document.createElement('li')
+                item.innerHTML=p.descrip+'-------'+p.cantidad
+                items.appendChild(item)
+            })
+
+            orden.appendChild(numero)
+            orden.appendChild(usuario)
+            orden.appendChild(negocio)
+            orden.appendChild(items)
+            orden.appendChild(document.createElement('br'))
+            orden.appendChild(document.createElement('hr'))
+
+            divOrdenes.appendChild(orden)
+        })
+
+    })
+</script>

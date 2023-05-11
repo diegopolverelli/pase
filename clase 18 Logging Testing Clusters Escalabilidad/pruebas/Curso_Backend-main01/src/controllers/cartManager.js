@@ -32,10 +32,11 @@ export default class cartManager {
         }
 
         let carts = await daoCart.post(newCart)
+        console.log(carts[carts.length-1])
         
         res.setHeader("Content-Type", "application/json")
         res.status(201).json({
-            carts
+            cart:carts[carts.length-1]
         })
 
     }
@@ -66,6 +67,8 @@ export default class cartManager {
             productId: (idProd),
             quantity: 1
         }
+
+        console.log('Esta agregando productos al carrito')
 
         let cart = await daoCart.getById(idCart)
         if (!cart) return res.send(`El cart ${idCart} no existe.`)

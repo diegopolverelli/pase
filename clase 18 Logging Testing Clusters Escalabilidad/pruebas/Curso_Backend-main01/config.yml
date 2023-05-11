@@ -1,0 +1,19 @@
+config:
+  plugins:
+    metrics-by-endpoint: {}
+  target: 'http://localhost:3000'
+  phases:
+    - duration: 5
+      arrivalRate: 2
+scenarios:
+  - name: "Crea carrito e inserta un ítem"
+    flow:
+      - log: "Creamos carrito"
+      - post:
+          url: "/api/carts"
+          capture:
+            selector: "$.id"
+            as: "cid"
+      - log: "Insertamos producto en el carrito {{ cid }}"
+      - post:
+          url: "/api/{{ cid }}/products/pr0001"

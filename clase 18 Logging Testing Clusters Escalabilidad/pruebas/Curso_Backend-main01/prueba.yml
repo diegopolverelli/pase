@@ -1,0 +1,15 @@
+config:
+  target: "https://api.example.com"
+
+scenarios:
+  - name: "Agregar y listar usuario"
+    flow:
+      - post:
+          url: "/endpoint1"
+          json:
+            name: "John Doe"
+        capture:
+          selector: "$.id"
+          as: "userId"
+      - get:
+          url: "/endpoint2/{{ userId }}"

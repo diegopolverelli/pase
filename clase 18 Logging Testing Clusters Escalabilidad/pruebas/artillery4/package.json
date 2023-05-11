@@ -1,0 +1,11 @@
+{
+  "name": "artillery4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.0",
+    "express": "^4.18.2"
+  },
+  "type": "module"
+}

@@ -1,0 +1,28 @@
+{"level":"verbose","message":"Hola, soy un mensaje verbose"}
+{"level":"warn","message":"Hola, soy un mensaje warning"}
+{"level":"error","message":"Hola, soy un mensaje error"}
+{"level":"info","message":"Hola, soy un mensaje de informacion"}
+{"level":"verbose","message":"Hola, soy un mensaje verbose"}
+{"level":"warn","message":"Hola, soy un mensaje warning"}
+{"level":"error","message":"Hola, soy un mensaje error"}
+{"level":"info","message":"Hola, soy un mensaje de informacion"}
+{"level":"verbose","message":"Hola, soy un mensaje verbose"}
+{"level":"warn","message":"Hola, soy un mensaje warning"}
+{"level":"error","message":"Hola, soy un mensaje error"}
+{"level":"info","message":"Hola, soy un mensaje de informacion"}
+{
+  message: 'Hola, soy un mensaje verbose',
+  level: '\x1B[32mverbose\x1B[39m'
+}
+{
+  message: 'Hola, soy un mensaje warning',
+  level: '\x1B[33mwarn\x1B[39m'
+}
+{
+  message: 'Hola, soy un mensaje error',
+  level: '\x1B[31merror\x1B[39m'
+}
+{
+  message: 'Hola, soy un mensaje de informacion',
+  level: '\x1B[34minfo\x1B[39m'
+}
