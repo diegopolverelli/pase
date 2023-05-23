@@ -1,6 +1,0 @@
-{
-  message: 'Hola, soy un mensaje error',
-  level: '\x1B[31merror\x1B[39m'
-}
-[31merror[39m: Hola, soy un mensaje error {"timestamp":"2023-05-10T13:19:41.475Z"}
-error: Hola, soy un mensaje error {"timestamp":"2023-05-10T13:20:16.873Z"}

@@ -1,0 +1,15 @@
+<ol>
+    {{#each users}}
+        <li>
+            <p>{{this.first_name}} {{this.last_name}} - {{this.email}} - {{this._id}}</p>
+
+            <ul>
+                {{#each this.courses}}
+                    <li>
+                        {{this._id}}    {{this.title}}
+                    </li>
+                {{/each}}
+            </ul>
+        </li>
+    {{/each}}
+</ol>

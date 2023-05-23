@@ -1,0 +1,27 @@
+Sat, 06 May 2023 16:23:09 GMT - LAPTOP-4BC9K1BN - No existen cliente con id 8}
+
+Sat, 06 May 2023 16:23:27 GMT - LAPTOP-4BC9K1BN - 
+    Argumentos invalidos para el cliente. Se esperaba:
+    - nombre, de tipo String: se recibió Marcos,
+    - apellido, de tipo String: se recibió undefined,
+    - email, de tipo String: se recibió mrojo@hotmail.com}
+
+Sat, 06 May 2023 16:23:29 GMT - LAPTOP-4BC9K1BN - 
+    Argumentos invalidos para el cliente. Se esperaba:
+    - nombre, de tipo String: se recibió Marcos,
+    - apellido, de tipo String: se recibió undefined,
+    - email, de tipo String: se recibió mrojo@hotmail.com}
+
+Sat, 06 May 2023 16:23:37 GMT - LAPTOP-4BC9K1BN - No existen cliente con id 90}
+
+Sat, 06 May 2023 16:23:44 GMT - LAPTOP-4BC9K1BN - Se esperaba un id numérico y se recibió: NaN}
+
+Sat, 06 May 2023 16:50:55 GMT - LAPTOP-4BC9K1BN - No existen cliente con id 2}
+
+Sat, 06 May 2023 16:50:56 GMT - LAPTOP-4BC9K1BN - No existen cliente con id 2}
+
+Sat, 06 May 2023 16:54:05 GMT - LAPTOP-4BC9K1BN - 
+    Argumentos invalidos para el cliente. Se esperaba:
+    - nombre, de tipo String: se recibió Marcos,
+    - apellido, de tipo String: se recibió undefined,
+    - email, de tipo String: se recibió mrojo@hotmail.com}
