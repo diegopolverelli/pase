@@ -1,0 +1,40 @@
+<h3>Ingrese nueva clave:</h3>
+<form action="/clave" method="post">
+    <input type="password" name="password" placeholder="ingrese nueva contraseña" id="password">
+    <input type="hidden" value="{{usuario}}" name="email" id="email">
+    <hr>
+    <hr>
+    <input type="submit" value="Ingresar" id="submit">
+</form>
+
+{{!-- <script>
+    let btnSubmit = document.getElementById('submit')
+    let textPassword = document.getElementById('password')
+    let textEmail = document.getElementById('email')
+
+    btnSubmit.addEventListener('click', async (e) => {
+        e.preventDefault()
+        console.log(textPassword.value)
+        if (textPassword.value.length == 0) alert('Ingrese contraseña')
+
+        let email = textEmail.value
+        let password = textPassword.value
+
+        let respuesta = await fetch('http://localhost:3000/clave', {
+            method: 'post',
+            body: JSON.stringify({ email, password }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+
+        })
+        let resultado = await respuesta.text()
+        console.log(resultado)
+        if (resultado.substring(0,5)=='Error'){
+            console.log('ES UN ERROR...!!!')
+        }
+
+    })
+
+
+</script> --}}

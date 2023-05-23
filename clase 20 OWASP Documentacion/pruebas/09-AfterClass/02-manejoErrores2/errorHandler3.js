@@ -40,6 +40,12 @@ const midError=(error, req, res, next)=>{
 
 const express=require('express')
 const winston=require('winston')
+const helmet = require('helmet');
+
+
+
+
+
 
 const logger=winston.createLogger(
     {
@@ -63,6 +69,18 @@ const logger=winston.createLogger(
 
 const app=express()
 
+// Configurar CSP usando Helmet
+app.use(helmet.contentSecurityPolicy({
+    directives: {
+      defaultSrc: ["'self'"],
+      scriptSrc: ["'self'", "'unsafe-inline'"],
+      styleSrc: ["'self'", "'unsafe-inline'"],
+      // Aquí puedes agregar más directivas según tus necesidades
+    }
+  }));
+  
+  
+
 app.get('/error',(req,res)=>{
     if(req.query.flag){
         if(req.query.flag==1){
@@ -74,6 +92,8 @@ app.get('/error',(req,res)=>{
     }
     res.status(200).send('Todo Ok por acá...!!!')
 })
+
+
 
 app.use(midError)
 

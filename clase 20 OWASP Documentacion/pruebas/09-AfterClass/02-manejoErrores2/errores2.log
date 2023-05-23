@@ -156,3 +156,18 @@ error: ha ocurrido un error inesperado {"timestamp":"2023-05-23T15:17:02.956Z"}
   level: 'error',
   timestamp: '2023-05-23T15:19:06.745Z'
 }
+{
+  name: 'Error',
+  message: 'No tiene privilegios suficientes para acceder al recurso',
+  status: 403,
+  detalle: 'Error: No tiene privilegios suficientes para acceder al recurso\n' +
+    '    at Object.<anonymous> (C:\\Users\\Diego\\dev\\CoderHouse\\DesafiosBackend-main\\moduloIII\\clase 20 OWASP Documentacion\\pruebas\\09-AfterClass\\02-manejoErrores2\\errorHandler3.js:11:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1255:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1309:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1113:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n' +
+    '    at node:internal/main/run_main_module:23:47',
+  level: 'error',
+  timestamp: '2023-05-23T15:32:38.965Z'
+}
