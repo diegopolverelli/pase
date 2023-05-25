@@ -1,0 +1,68 @@
+paths:
+  /api/pets/{uid}:
+    get:
+      summary: Obtiene todos los usuarios
+      tags:
+        - Pets
+      parameters:
+      - name: uid
+        in: path
+        required: true
+        decription: id de la mascota solicitada
+        schema:
+          $type: String  
+      responses:
+        "200":
+          description: mascotas obtenidas correctamente desde DB
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#components/schemas/Pet'
+        "500":
+          description: Error interno del servidor
+    put:
+      summary: Actualiza mascota 
+      tags:
+        - Pets
+      parameters:
+      - name: uid
+        in: path
+        required: true
+        description: id de la mascota
+        schema:
+          $type: String
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/requestBodies/updatePet'
+components:
+  schemas:
+    Pet:
+      type: object
+      properties:
+        _id:
+          type: ObjectId
+          description: Id autogenerado de mongo
+        name:
+          type: String
+          description: Nombre mascota
+      example:
+        _id: ObjectId("xxxxx")
+        first_name: Diego
+  requestBodies:
+    updatePetUser:
+      type: object
+      properties:
+        name:
+          type: String
+          description: Nombre mascota
+        last_name:
+      example:
+        first_name: chicho
+        last_name: Polverelli
+        email: diego@hotmail.com
+        password: 123          
