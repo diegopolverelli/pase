@@ -1,1 +1,0 @@
-console.log("forgotPassword.js ok!");
