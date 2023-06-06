@@ -20,13 +20,6 @@ app.set('views', path.join(__dirname,'../views'));
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
-// app.use(express.static(path.join(__dirname,'../public')));
-
-// app.get('/',(req,res)=>{
-//     res.setHeader('Content-Type','text/plain');
-//     res.status(200).send('OK');
-// })
-
 const heroeModelo=mongoose.model('heroes',new mongoose.Schema({
     nombre:{unique: true, type: String}, poder: String, empresa: String
 }))
@@ -57,7 +50,7 @@ app.get('/',async(req,res)=>{
     console.log(heroes)
 
     res.setHeader('Content-Type','text/html');
-    res.status(200).render('home');
+    res.status(200).render('home',{heroes});
 })
 
 const server=app.listen(PORT,()=>{
