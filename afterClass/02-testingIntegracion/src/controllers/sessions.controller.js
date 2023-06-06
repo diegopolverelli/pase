@@ -33,7 +33,7 @@ const login = async (req, res) => {
     if(!isValidPassword) return res.status(400).send({status:"error",error:"Incorrect password"});
     const userDto = UserDTO.getUserTokenFrom(user);
     const token = jwt.sign(userDto,'tokenSecretJWT',{expiresIn:"1h"});
-    res.cookie('coderCookie',token,{maxAge:3600000}).cookie('pruebaDiego','Hola...!!!').send({status:"success",message:"Logged in"})
+    res.cookie('coderCookie',token,{maxAge:3600000}).send({status:"success",message:"Logged in"})
 }
 
 const current = async(req,res) =>{

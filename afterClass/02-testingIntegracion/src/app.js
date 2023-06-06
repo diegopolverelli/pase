@@ -19,4 +19,16 @@ app.use('/api/pets',petsRouter);
 app.use('/api/adoptions',adoptionsRouter);
 app.use('/api/sessions',sessionsRouter);
 
+app.get('/set-cookie', (req, res) => {
+    // Crear el valor de la cookie
+    const cookieValue = 'miCookieDePruebaDiego=ejemplo; Path=/; Expires=' + new Date(Date.now() + 900000).toUTCString();
+  
+    // Establecer el encabezado Set-Cookie usando res.set()
+    res.set('Set-Cookie', cookieValue);
+  
+    // Enviar una respuesta al cliente
+    res.cookie('cookieConParser','Prueba 2...!!!').send('Cookie establecida');
+  });
+
+
 app.listen(PORT,()=>console.log(`Listening on ${PORT}`))
